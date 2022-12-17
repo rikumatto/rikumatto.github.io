@@ -1,0 +1,272 @@
+body {
+    
+    color: rgb(244, 244, 244);
+    margin: auto;
+	margin-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#nav {
+	background: linear-gradient(
+	90deg,
+	rgb(0, 204, 255),
+	rgb(0, 64, 255),
+	rgb(197, 9, 244),
+	rgb(194, 11, 50)
+	);
+	
+	color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+    display: inline;
+    padding: 0;
+    margin: 0;
+	text-align: center;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+	animation-name: navbar;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(0.01,0.01,0.01,0.01);
+	animation-direction: normal;
+	animation-delay: 0.1s;
+	
+	
+}
+
+@keyframes navbar{
+	0% {background: linear-gradient(
+	45deg,
+	rgb(0, 204, 255),
+	rgb(0, 64, 255),
+	rgb(197, 9, 244),
+	rgb(194, 11, 50)
+	);}
+	
+	25% {background: linear-gradient(
+	45deg,
+	rgb(194, 11, 50),
+	rgb(0, 204, 255),
+	rgb(0, 64, 255),
+	rgb(197, 9, 244)
+	);}
+	
+	50% {background: linear-gradient(
+	45deg,
+	rgb(197, 9, 244),
+	rgb(194, 11, 50),
+	rgb(0, 204, 255),
+	rgb(0, 64, 255)
+	);}
+	
+	75% {background: linear-gradient(
+	45deg,
+	rgb(0, 64, 255),
+	rgb(197, 9, 244),
+	rgb(194, 11, 50),
+	rgb(0, 204, 255)
+	);}
+	
+	100% {background: linear-gradient(
+	45deg,
+	rgb(0, 204, 255),
+	rgb(0, 64, 255),
+	rgb(197, 9, 244),
+	rgb(194, 11, 50)
+	);}
+	
+	
+	
+	
+	
+	
+}
+
+
+#nav a {
+  display: block;
+  color: #0d0d0d;
+  padding: 8px 16px;
+  text-decoration: none;
+  float: left;
+  
+}
+
+
+#nav a:hover {
+	background: linear-gradient(
+	135deg,
+	rgb(194, 11, 75),
+	rgb(197, 9, 244),
+	rgb(0, 64, 255),
+	rgb(0, 204, 255)
+	);
+	opacity: 0.8;
+	color: white;
+}
+
+
+
+.banner {
+	
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: fixed;
+	text-align: center;
+	z-index: 0;
+	background-image: url(img/d2example.jpg);
+	
+}
+
+
+.banner2 {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: fixed;
+	text-align: center;
+	z-index: 0;
+	background-image: url(img/d2bckg.jpg);
+	
+}
+
+
+.banner3 {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: fixed;
+	text-align: center;
+	z-index: 0;
+	background-image: url(img/portalbg.jpg);
+	
+}
+
+
+
+.banner4 {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: fixed;
+	text-align: center;
+	z-index: 0;
+	background-image: url(img/assettobg.jpg);
+	
+}
+	
+
+
+.banner5 {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: fixed;
+	text-align: center;
+	z-index: 0;
+	background-image: url(img/beatbg.jpg);
+	
+}
+
+
+.banner6 {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	position: fixed;
+	text-align: center;
+	z-index: 0;
+	background-image: url(img/csbg.jpg);
+	
+}
+
+	
+	
+
+h1 {
+	font-size: 400%;
+	
+	
+}
+
+
+.content {
+	z-index: 1;
+	font-size: 200%;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	background-color: rgb(16, 15, 16);
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	margin: auto;
+	padding: 0;
+	top: 86.5%;
+	
+	
+	
+	
+	
+}
+
+table {
+	border-style: 1px solid white;
+	border-collapse: collapse;
+	width: 100%;
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+	background: linear-gradient(
+	45deg,
+	rgb(0, 204, 255),
+	rgb(0, 64, 255),
+	rgb(197, 9, 244),
+	rgb(194, 11, 50)
+	);
+	
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	display: inline;
+    padding: 0;
+    margin: 0;
+	text-align: center;
+	font-size: 50%;
+	z-index: 2;
+	
+	
+	animation-name: navbar;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(0.01,0.01,0.01,0.01);
+	animation-direction: reverse;
+	animation-delay: 0.1s;
+}
+
+
+
+	
+	
+
+
+	
