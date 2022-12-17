@@ -112,6 +112,14 @@ body {
 }
 
 
+@media screen and (max-width: 600px) {
+  #nav a {
+    float: none;
+    width: 100%;
+  
+}
+
+
 
 .banner {
 	
