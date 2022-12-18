@@ -133,6 +133,7 @@ body {
 	text-align: center;
 	z-index: 0;
 	background-image: url(img/d2example.jpg);
+	background-position: center;
 	
 }
 
@@ -145,6 +146,7 @@ body {
 	text-align: center;
 	z-index: 0;
 	background-image: url(img/d2bckg.jpg);
+	background-position: center;
 	
 }
 
@@ -157,6 +159,7 @@ body {
 	text-align: center;
 	z-index: 0;
 	background-image: url(img/portalbg.jpg);
+	background-position: center;
 	
 }
 
@@ -170,6 +173,7 @@ body {
 	text-align: center;
 	z-index: 0;
 	background-image: url(img/assettobg.jpg);
+	background-position: center;
 	
 }
 	
@@ -183,6 +187,7 @@ body {
 	text-align: center;
 	z-index: 0;
 	background-image: url(img/beatbg.jpg);
+	background-position: center;
 	
 }
 
@@ -195,6 +200,7 @@ body {
 	text-align: center;
 	z-index: 0;
 	background-image: url(img/csbg.jpg);
+	background-position: center;
 	
 }
 
